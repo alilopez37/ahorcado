@@ -44,4 +44,10 @@ public class Juego {
         return aux;
     }
 
+    public boolean isEquals() {
+        boolean estado = false;
+        if (palabra.equals(String.valueOf(aux)))
+            estado = true;
+        return estado;
+    }
 }
